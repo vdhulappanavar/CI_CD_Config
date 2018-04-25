@@ -1,0 +1,29 @@
+{
+  "name": "CI_CD_Config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint ./src/js/foo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdhulappanavar/CI_CD_Config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdhulappanavar/CI_CD_Config/issues"
+  },
+  "homepage": "https://github.com/vdhulappanavar/CI_CD_Config#readme",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
