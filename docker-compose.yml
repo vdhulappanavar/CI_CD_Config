@@ -1,0 +1,7 @@
+version: '2'
+services:
+  interview-app:
+    image: cicd
+    build: .
+    ports:
+      - 38080:5000
