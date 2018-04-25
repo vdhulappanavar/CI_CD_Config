@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server/index.js",
     "test": "mocha",
     "lint": "./node_modules/.bin/eslint ./src/js/foo.js"
   },
@@ -22,7 +23,6 @@
     "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "express": "^4.16.3",
-    "http-server": "^0.11.1",
     "mocha": "^5.1.1"
   },
   "devDependencies": {
