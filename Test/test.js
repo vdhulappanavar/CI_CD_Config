@@ -1,11 +1,11 @@
-let dummy = require('../src/js/foo');
+// 
 const should = require('chai').should;
 should();
 
 describe('Test CI', function(){
-    it('should alert with Hello World', function(){
-        let result = dummy();
+  it('should alert with Hello World', function(){
+      let result = "Hello World";
 
-        result.should.equal("Hello World");
-    })
+      result.should.equal("Hello World");
+  })
 })
