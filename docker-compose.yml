@@ -1,6 +1,6 @@
 version: '2'
 services:
-  interview-app:
+  cicd:
     image: cicd
     build: .
     ports:
