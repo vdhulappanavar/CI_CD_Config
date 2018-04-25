@@ -1,4 +1,4 @@
-let dummy = require('../src/foo');
+let dummy = require('../src/js/foo');
 const should = require('chai').should;
 should();
 
